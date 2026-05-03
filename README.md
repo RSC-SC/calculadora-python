@@ -21,3 +21,6 @@ python main.py
 ```bash
 python -m pytest
 ```
+
+
+git checkout -b feature/<nome-da-feature>

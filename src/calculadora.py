@@ -18,3 +18,11 @@ def dividir(a, b):
 
 def potencia(base, expoente):
     return base ** expoente
+
+def fatorial(n):
+    if n < 0:
+        raise ValueError("n deve ser um inteiro não negativo")
+    elif n == 0:
+        return 1
+    else:
+        return n * fatorial(n - 1)

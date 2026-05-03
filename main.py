@@ -1,4 +1,4 @@
-from src.calculadora import somar, subtrair, multiplicar, dividir, potencia
+from src.calculadora import somar, subtrair, multiplicar, dividir, potencia, fatorial
 
 
 def main():
@@ -8,6 +8,7 @@ def main():
     print(f"4 * 2 = {multiplicar(4, 2)}")
     print(f"10 / 2 = {dividir(10, 2)}")
     print(f"2 ^ 8 = {potencia(2, 8)}")
+    print(f"5! = {fatorial(5)}") # Exemplo de uso da função fatorial
 
 
 if __name__ == "__main__":
